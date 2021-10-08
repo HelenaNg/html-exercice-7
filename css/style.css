@@ -1,26 +1,7 @@
-/*.rectangle{
-    width: 80%;
-    height: 150px;
-    background-color: rgb(62, 62, 248);
-}
-.rectangle2{
-    width: 80%;
-    height: 150px;
-    background-color: rgb(166, 16, 185);
-}
-.rectangle3{
-    width: 80%;
-    height: 150px;
-    background-color: rgb(250, 33, 116);
-}*/
 #adresse{
     width: 10%;
     height: 65px;
 }
-/*.fieldset{
-    width: 80%;
-    background-color: rgb(62, 62, 248);
-}*/
 .field{
     background-color: rgb(62, 62, 248);
 }
