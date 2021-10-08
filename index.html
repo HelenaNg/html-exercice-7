@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <title>html exo7</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="/ma page de traitement" method="POST">
+    <div class="fieldset">
+    <fieldset class="field">
+        <legend><mark>Votre identité</mark></legend>
+        <div class="rectangle">
+            <ol>
+                <li><label for="name">Nom :<input type="text" placeholder="Nom"></label></li>
+                <li><label for="name">Prénom :<input type="text" placeholder="Prénom"></label></li>
+                <li><label for="mail">Adresse mail :<input type="email" placeholder="Adresse mail"></label></li>
+            </ol>
+        </div>
+    </fieldset>
+</form>  
+    <div class="rectangle2">  
+    <fieldset class="field1">
+        <legend><mark>Adresse de livraison</mark></legend>
+            <ol>
+                 <li><label for="Adresse">Adresse :<input type="text" id="adresse"> </label></li>
+                 <li><label for="postal">Code postal :<input type="text" placeholder="Code postal"></label></li>
+                 <li><label for="Ville">Ville :<input type="text" placeholder="ville"></label></li>
+            </ol>
+        </div>
+    </fieldset>
+</form>
+    <fieldset class="field2">
+        <legend><mark>Informations de règlement</mark></legend>
+        <div class="rectangle3">
+            <ol>
+                <li><label for="carte">Type de carte bancaire :</label></li>
+                <input type="radio" id="check"><label for="visa">Visa</label>
+                <div class="check"></div><input type="radio" id="check"><label for="Mastercard">Mastercard</label>
+                <li><label for="number">Numéro de carte :<input type="number" placeholder="Numéro de carte"></label></li>
+                <li><label for="Code">Code de sécurité :<input type="number" placeholder="Code de sécurité"></label></li>
+                <li><label for="name">Nom du titulaire :<input type="text" placeholder="Nom du titulaire"></label></li>
+           </ol>
+        </div>
+    </fieldset>
+    <div class="button">
+        <button type="submit">J'achète</button>
+    </div>
+</form>
+</body>
+</html>
