@@ -7,7 +7,6 @@
 </head>
 <body>
 <form action="/ma page de traitement" method="POST">
-    <div class="fieldset">
     <fieldset class="field">
         <legend><mark>Votre identité</mark></legend>
         <div class="rectangle">
@@ -19,11 +18,10 @@
         </div>
     </fieldset>
 </form>  
-    <div class="rectangle2">  
     <fieldset class="field1">
         <legend><mark>Adresse de livraison</mark></legend>
             <ol>
-                 <li><label for="Adresse">Adresse :<input type="text" id="adresse"> </label></li>
+                 <li><label for="Adresse">Adresse : <textarea name="" id="" cols="15" rows="5"></textarea> </label></li>
                  <li><label for="postal">Code postal :<input type="text" placeholder="Code postal"></label></li>
                  <li><label for="Ville">Ville :<input type="text" placeholder="ville"></label></li>
             </ol>
@@ -32,7 +30,6 @@
 </form>
     <fieldset class="field2">
         <legend><mark>Informations de règlement</mark></legend>
-        <div class="rectangle3">
             <ol>
                 <li><label for="carte">Type de carte bancaire :</label></li>
                 <input type="radio" id="check"><label for="visa">Visa</label>
