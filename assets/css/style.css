@@ -1,0 +1,18 @@
+.field{
+    background-color: rgb(62, 62, 248);
+}
+.field1{
+    background-color: rgb(250, 33, 116);
+}
+.field2{
+    background-color: rgb(166, 16, 185);
+}
+mark{
+    background-color: rgb(62, 62, 248);
+}
+.field1 mark{
+    background-color:rgb(250, 33, 116) ;
+}
+.field2 mark{
+    background-color: rgb(166, 16, 185);
+}
