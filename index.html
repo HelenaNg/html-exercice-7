@@ -7,36 +7,36 @@
 </head>
 <body>
 <form action="#" method="POST">
-    <fieldset class="field">
-        <legend><mark>Votre identité</mark></legend>
+    <fieldset class="identity">
+        <legend class="identity">Votre identité</legend>
         <div class="rectangle">
             <ol>
-                <li><label for="lastName">Nom :<input type="text" id="lastName" placeholder="Nom"></label></li>
-                <li><label for="firstName">Prénom :<input type="text" id="firstName" placeholder="Prénom"></label></li>
-                <li><label for="mail">Adresse mail :<input type="email" id="mail" placeholder="Adresse mail"></label></li>
+                <li><label for="lastName">Nom :<input type="text" id="lastName" placeholder="Nom" name="lastName"/></label></li>
+                <li><label for="firstName">Prénom :<input type="text" id="firstName" placeholder="Prénom" name="firstName"/></label></li>
+                <li><label for="mail">Adresse mail :<input type="email" id="mail" placeholder="Adresse mail" name="mail"/></label></li>
             </ol>
         </div>
     </fieldset>
 </form>  
-    <fieldset class="field1">
-        <legend><mark>Adresse de livraison</mark></legend>
+    <fieldset class="field2">
+        <legend class="field2"><mark>Adresse de livraison</mark></legend>
             <ol>
-                 <li><label for="Adresse">Adresse : <textarea name="" id="" cols="15" rows="5"></textarea> </label></li>
-                 <li><label for="postal">Code postal :<input type="text" placeholder="Code postal"></label></li>
-                 <li><label for="Ville">Ville :<input type="text" placeholder="ville"></label></li>
+                 <li><label for="address">Adresse : <textarea name="address" id="address" cols="15" rows="5" placeholder="Adresse"></textarea> </label></li>
+                 <li><label for="postalCode">Code postal :<input type="text" id="postalCode" placeholder="Code postal" name="postalCode"/></label></li>
+                 <li><label for="city">Ville :<input type="text" id="city" placeholder="ville" name="city"/></label></li>
             </ol>
         </div>
     </fieldset>
 </form>
-    <fieldset class="field2">
-        <legend><mark>Informations de règlement</mark></legend>
+    <fieldset class="field3">
+        <legend class="field3"><mark>Informations de règlement</mark></legend>
             <ol>
-                <li><label for="carte">Type de carte bancaire :</label></li>
-                <input type="radio" id="check" name="radio"><label for="visa">Visa</label>
+                <li><label for="card">Type de carte bancaire :</label></li>
+                <input type="radio" id="check" name="radio" /><label for="visa">Visa</label>
                 <div class="check"></div><input type="radio" id="check" name="radio"><label for="Mastercard">Mastercard</label>
-                <li><label for="number">Numéro de carte :<input type="number" placeholder="Numéro de carte"></label></li>
-                <li><label for="Code">Code de sécurité :<input type="number" placeholder="Code de sécurité"></label></li>
-                <li><label for="name">Nom du titulaire :<input type="text" placeholder="Nom du titulaire"></label></li>
+                <li><label for="cardNumber">Numéro de carte :<input type="number" id="cardNumber" placeholder="Numéro de carte" name="cardNumber"/></label></li>
+                <li><label for="code">Code de sécurité :<input type="number" id="code" placeholder="Code de sécurité" name="code"/></label></li>
+                <li><label for="holderName">Nom du titulaire :<input type="text" id="holderName" placeholder="Nom du titulaire" name="holderName"/></label></li>
            </ol>
         </div>
     </fieldset>
